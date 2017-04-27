@@ -1,0 +1,29 @@
+{
+  "name": "electron-experiments",
+  "version": "0.0.1",
+  "description": "Trying out electron",
+  "main": "js/main.js",
+  "dependencies": {
+    "electron": "^1.6.6"
+  },
+  "devDependencies": {
+    "@types/electron": "^1.4.37",
+    "@types/node": "^7.0.14",
+    "tslint": "^5.1.0",
+    "typescript": "^2.3.1"
+  },
+  "scripts": {
+    "start": "electron .\\js\\main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DChromik/electron-experiments.git"
+  },
+  "author": "Daniel Chromik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DChromik/electron-experiments/issues"
+  },
+  "homepage": "https://github.com/DChromik/electron-experiments#readme"
+}

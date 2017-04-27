@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "outDir": "js",
+        "allowJs": true,
+        "moduleResolution": "node",
+        "noResolve": false
+    },
+    "include": [
+        "src"
+    ],
+    "exclude": [
+        "node",
+        "js"
+    ]
+}
